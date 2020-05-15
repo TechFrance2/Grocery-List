@@ -2,7 +2,7 @@ const groceryItems = [
     {
         id: 1,
         text: "ground beef",
-        completed: true
+        completed: false
     },
     {
         id: 2, 
@@ -26,7 +26,7 @@ const groceryItems = [
     },
     {   id: 6, 
         text: "tomatoes",
-        completed: true   
+        completed: true  
     },
     {
         id: 7, 
@@ -36,3 +36,4 @@ const groceryItems = [
 ]
 
 export default groceryItems
+

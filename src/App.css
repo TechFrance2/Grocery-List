@@ -1,47 +1,48 @@
-  body {
-    background-color: whitesmoke;
-  }
+body {
+  background-color: whitesmoke;
+}
 
 .shop-list {
-  background-color: darkseagreen;
-  margin: auto;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 1px solid #efefef;
-  box-shadow: 
-    /* top layer shadow */
-    0 1px 1px rgba(0,0,0,0.15),
-    /* the second layer */
-    0 10px 0 -5px #eee, 
-    /* second layer shadow */
-    0 10px 1px -4px rgba(0, 0, 0, 0.15),
-    /* the third layer */
-    0 20px 0 -10px #eee, 
-    /* the third layer shadow */
-    0 20px 0 -9px rgba(0, 0, 0, 0.15);
-  padding: 30px;
+background-color: darkseagreen;
+margin: auto;
+width: 50%;
+display: flex;
+flex-direction: column;
+align-items: center;
+border: 1px solid #efefef;
+box-shadow: 
+  /* top layer shadow */
+  0 1px 1px rgba(0,0,0,0.15),
+  /* the second layer */
+  0 10px 0 -5px #eee, 
+  /* second layer shadow */
+  0 10px 1px -4px rgba(0, 0, 0, 0.15),
+  /* the third layer */
+  0 20px 0 -10px #eee, 
+  /* the third layer shadow */
+  0 20px 0 -9px rgba(0, 0, 0, 0.15);
+padding: 30px;
 }
 
 .shoplist {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 30px 20px 0;
-    width: 70%;
-    border-bottom: 1px solid #cecece;
-    font-family: Roboto, sans-serif;
-    font-weight: 100;
-    font-size: 15px;
-    color: #333333
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 20px 0;
+  width: 70%;
+  border-bottom: 1px solid #cecece;
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: #333333
 }
 
-input[type=checkbox] {
-  margin-right: 10px;
-  font-size: 30px;
+.input[type= checkbox] {
+margin-right: 10px;
+font-size: 30px;
 }
 
-input[type=checkbox] :focus {
-  outline: 0;
+.input[type= checkbox] :focus {
+outline: 0;
 }
+
